@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_CracksErosion-Grey Invert black
-  m_Shader: {fileID: -6465566751694194690, guid: 06d81be3fca759048b8df5a009799304, type: 3}
+  m_Name: M_CracksErosion-Color BLACKBLUE
+  m_Shader: {fileID: -6465566751694194690, guid: 991806600674d5049a1c7630a6587488, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
@@ -107,7 +107,7 @@ Material:
     - _Alpha_Amount: 0
     - _BUILTIN_QueueControl: -1
     - _BUILTIN_QueueOffset: 0
-    - _Blend: 0
+    - _Blend: 2
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
     - _CastShadows: 1
@@ -117,10 +117,10 @@ Material:
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _DstBlend: 10
+    - _DstBlend: 1
     - _DstBlendAlpha: 10
     - _EnvironmentReflections: 1
-    - _Erosion_Level: -1
+    - _Erosion_Level: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -144,9 +144,9 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Emissive_HDR_Color: {r: 3.031433, g: 0, b: 0, a: 0}
+    - _Emissive_HDR_Color: {r: 0, g: 0, b: 0, a: 0}
     - _Emissive_color: {r: 0, g: 0, b: 0, a: 0}
-    - _Main_Color: {r: 0, g: 0, b: 0, a: 1}
+    - _Main_Color: {r: 0.31764707, g: 0.3658785, b: 0.72156864, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
