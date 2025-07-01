@@ -281,7 +281,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d4c867f6b72b714dbb5fd1780afe208, type: 3}
-  m_Name: GroundCracks_Blue
+  m_Name: GroundCracks_Red_New
   m_EditorClassIdentifier: 
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 0}
@@ -755,7 +755,7 @@ VisualEffectResource:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GroundCracks_Blue
+  m_Name: GroundCracks_Red_New
   m_Graph: {fileID: 114350483966674976}
   m_Infos:
     m_RendererSettings:
@@ -4646,7 +4646,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":0.13203634321689607,"g":2.138951301574707,"b":5.992156982421875,"a":1.0},"time":0.0},{"color":{"r":0.07752944529056549,"g":1.2559549808502198,"b":3.5184903144836427,"a":1.0},"time":0.29706263542175295},{"color":{"r":0.12240669876337052,"g":0.5935193300247192,"b":1.4980391263961793,"a":1.0},"time":0.5176470875740051},{"color":{"r":0.12213881313800812,"g":0.5906190276145935,"b":1.0,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.10000763088464737},{"alpha":0.800000011920929,"time":0.5382314920425415},{"alpha":0.0,"time":1.0}],"gradientMode":0}'
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":2.2627415657043459,"g":0.26795849204063418,"b":0.31916940212249758,"a":1.0},"time":0.0},{"color":{"r":2.9960782527923586,"g":0.354801744222641,"b":0.42260968685150149,"a":1.0},"time":0.29117265343666079},{"color":{"r":1.3041188716888428,"g":0.15443643927574159,"b":0.18395157158374787,"a":1.0},"time":0.5176470875740051},{"color":{"r":0.8235950469970703,"g":0.0893523097038269,"b":0.10303372889757157,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.10000763088464737},{"alpha":0.800000011920929,"time":0.5382314920425415},{"alpha":0.0,"time":1.0}],"gradientMode":0}'
     m_Space: -1
   m_Property:
     name: Color
@@ -6058,7 +6058,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":0.04668189957737923,"g":0.7562335133552551,"b":2.1185474395751955,"a":1.0},"time":0.0},{"color":{"r":0.016504542902112008,"g":0.2673689126968384,"b":0.7490196228027344,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":0.0,"time":1.0}],"gradientMode":2}'
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":2.2627415657043459,"g":0.26795849204063418,"b":0.31916940212249758,"a":1.0},"time":0.0},{"color":{"r":2.2627415657043459,"g":0.26795849204063418,"b":0.31916940212249758,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":0.0,"time":1.0}],"gradientMode":2}'
     m_Space: -1
   m_Property:
     name: Color
@@ -6267,7 +6267,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":0.05710233375430107,"g":0.7315038442611694,"b":2.1185474395751955,"a":1.0},"time":0.0},{"color":{"r":0.026163259521126748,"g":0.44404712319374087,"b":1.2675164937973023,"a":1.0},"time":0.5176470875740051},{"color":{"r":0.0,"g":0.15507888793945313,"b":0.4528301954269409,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":0.6058899760246277},{"alpha":1.0,"time":1.0}],"gradientMode":0}'
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":2.118547201156616,"g":0.25088271498680117,"b":0.29883018136024477,"a":1.0},"time":0.0},{"color":{"r":1.2167859077453614,"g":0.1440942883491516,"b":0.17163287103176118,"a":1.0},"time":0.5176470875740051},{"color":{"r":0.8235950469970703,"g":0.0893523097038269,"b":0.10303372889757157,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":0.6058899760246277},{"alpha":1.0,"time":1.0}],"gradientMode":0}'
     m_Space: -1
   m_Property:
     name: gradient
@@ -8484,7 +8484,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":0.13203634321689607,"g":2.138951301574707,"b":5.992156982421875,"a":1.0},"time":0.0},{"color":{"r":0.1867275834083557,"g":3.0249338150024416,"b":8.474189758300782,"a":1.0},"time":0.4941176474094391},{"color":{"r":0.2640726864337921,"g":4.277902603149414,"b":11.98431396484375,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":0.6323491334915161},{"alpha":1.0,"time":1.0}],"gradientMode":0}'
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":2.2627415657043459,"g":0.26795849204063418,"b":0.31916940212249758,"a":1.0},"time":0.0},{"color":{"r":2.2627415657043459,"g":0.26795849204063418,"b":0.31916940212249758,"a":1.0},"time":0.5000076293945313},{"color":{"r":0.8235950469970703,"g":0.0893523097038269,"b":0.10303372889757157,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":0.6323491334915161},{"alpha":1.0,"time":1.0}],"gradientMode":0}'
     m_Space: -1
   m_Property:
     name: gradient
@@ -12858,7 +12858,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":0.038764722645282748,"g":0.6279774904251099,"b":1.7592451572418213,"a":1.0},"time":0.42058441042900088},{"color":{"r":0.019382361322641374,"g":0.31398874521255495,"b":0.8796225786209106,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.0,"time":0.0},{"alpha":0.0,"time":0.1441214680671692},{"alpha":1.0,"time":0.32353705167770388},{"alpha":0.7098039388656616,"time":0.7353017330169678},{"alpha":0.0,"time":0.9176470637321472}],"gradientMode":0}'
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":1.4980391263961793,"g":0.1774008721113205,"b":0.21130484342575074,"a":1.0},"time":0.42058441042900088},{"color":{"r":0.8235950469970703,"g":0.0893523097038269,"b":0.10303372889757157,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.0,"time":0.0},{"alpha":0.0,"time":0.1441214680671692},{"alpha":1.0,"time":0.32353705167770388},{"alpha":0.7098039388656616,"time":0.7353017330169678},{"alpha":0.0,"time":0.9176470637321472}],"gradientMode":0}'
     m_Space: -1
   m_Property:
     name: Color
@@ -13960,7 +13960,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":0.15505889058113099,"g":2.5119099617004396,"b":7.036980628967285,"a":1.0},"time":0.0},{"color":{"r":0.15505889058113099,"g":2.5119099617004396,"b":7.036980628967285,"a":1.0},"time":0.2529488205909729},{"color":{"r":0.038764722645282748,"g":0.6279774904251099,"b":1.7592451572418213,"a":1.0},"time":0.6176546812057495},{"color":{"r":0.5,"g":0.5,"b":0.5,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":0.49803921580314639,"time":0.4588235318660736},{"alpha":0.0,"time":1.0}],"gradientMode":0}'
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":2.9960782527923586,"g":0.354801744222641,"b":0.42260968685150149,"a":1.0},"time":0.0},{"color":{"r":2.2627415657043459,"g":0.26795849204063418,"b":0.31916940212249758,"a":1.0},"time":0.2529488205909729},{"color":{"r":1.4980391263961793,"g":0.1774008721113205,"b":0.21130484342575074,"a":1.0},"time":0.6176546812057495},{"color":{"r":0.8235950469970703,"g":0.0893523097038269,"b":0.10303372889757157,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":0.49803921580314639,"time":0.4588235318660736},{"alpha":0.0,"time":1.0}],"gradientMode":0}'
     m_Space: -1
   m_Property:
     name: Color
@@ -16277,7 +16277,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":0.0,"g":0.26617953181266787,"b":0.7735849618911743,"a":1.0},"time":0.0},{"color":{"r":0.0,"g":0.28565603494644167,"b":0.8301886320114136,"a":1.0},"time":0.4735332131385803},{"color":{"r":0.033009085804224017,"g":0.5347378253936768,"b":1.4980392456054688,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":0.6323491334915161},{"alpha":1.0,"time":1.0}],"gradientMode":0}'
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":0.8235950469970703,"g":0.0893523097038269,"b":0.10303372889757157,"a":1.0},"time":0.0},{"color":{"r":0.8235950469970703,"g":0.0893523097038269,"b":0.10303372889757157,"a":1.0},"time":0.4735332131385803},{"color":{"r":1.6471900939941407,"g":0.1787046194076538,"b":0.20606745779514314,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":0.6323491334915161},{"alpha":1.0,"time":1.0}],"gradientMode":0}'
     m_Space: -1
   m_Property:
     name: Color
@@ -29148,7 +29148,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":0.19858433306217194,"g":3.0274477005004885,"b":8.419976234436036,"a":1.0},"time":0.0},{"color":{"r":0.15505889058113099,"g":2.5119099617004396,"b":7.036980628967285,"a":1.0},"time":0.2529488205909729},{"color":{"r":0.038764722645282748,"g":0.6279774904251099,"b":1.7592451572418213,"a":1.0},"time":0.6176546812057495},{"color":{"r":0.5,"g":0.5,"b":0.5,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":0.49803921580314639,"time":0.6000000238418579},{"alpha":0.0,"time":1.0}],"gradientMode":0}'
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":2.9960782527923586,"g":0.354801744222641,"b":0.42260968685150149,"a":1.0},"time":0.0},{"color":{"r":2.9960782527923586,"g":0.354801744222641,"b":0.42260968685150149,"a":1.0},"time":0.2529488205909729},{"color":{"r":1.4980391263961793,"g":0.1774008721113205,"b":0.21130484342575074,"a":1.0},"time":0.6176546812057495},{"color":{"r":0.7490195631980896,"g":0.08870043605566025,"b":0.10565242171287537,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":0.49803921580314639,"time":0.6000000238418579},{"alpha":0.0,"time":1.0}],"gradientMode":0}'
     m_Space: -1
   m_Property:
     name: Color
@@ -29246,7 +29246,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":0.28264889121055605,"g":4.309024333953857,"b":11.98431396484375,"a":1.0},"time":0.0},{"color":{"r":0.06601817160844803,"g":1.0694756507873536,"b":2.9960784912109377,"a":1.0},"time":0.2529488205909729},{"color":{"r":0.023340949788689615,"g":0.37811675667762759,"b":1.0592737197875977,"a":1.0},"time":0.6176546812057495},{"color":{"r":0.5,"g":0.5,"b":0.5,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.5176470875740051,"time":0.0},{"alpha":0.3960784375667572,"time":0.6000000238418579},{"alpha":0.0,"time":1.0}],"gradientMode":0}'
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":2.9960782527923586,"g":0.354801744222641,"b":0.42260968685150149,"a":1.0},"time":0.0},{"color":{"r":2.118547201156616,"g":0.25088271498680117,"b":0.29883018136024477,"a":1.0},"time":0.2529488205909729},{"color":{"r":1.059273600578308,"g":0.12544135749340058,"b":0.14941509068012238,"a":1.0},"time":0.6176546812057495},{"color":{"r":0.5,"g":0.5,"b":0.5,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.5176470875740051,"time":0.0},{"alpha":0.3960784375667572,"time":0.6000000238418579},{"alpha":0.0,"time":1.0}],"gradientMode":0}'
     m_Space: -1
   m_Property:
     name: Color
