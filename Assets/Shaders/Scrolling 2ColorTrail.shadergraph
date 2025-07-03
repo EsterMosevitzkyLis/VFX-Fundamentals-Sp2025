@@ -14,6 +14,9 @@
         },
         {
             "m_Id": "b363fe525ba34bbdbccf9a86c31d0361"
+        },
+        {
+            "m_Id": "36300baec0c94eb4ae2d2b29e273c8df"
         }
     ],
     "m_Keywords": [],
@@ -681,6 +684,29 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.BooleanShaderProperty",
+    "m_ObjectId": "36300baec0c94eb4ae2d2b29e273c8df",
+    "m_Guid": {
+        "m_GuidSerialized": "0429ff6a-7700-4591-bf46-b05d9a58a507"
+    },
+    "m_Name": "Flip",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "Flip",
+    "m_DefaultReferenceName": "_Flip",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": false
 }
 
 {
@@ -1433,6 +1459,9 @@
         },
         {
             "m_Id": "b363fe525ba34bbdbccf9a86c31d0361"
+        },
+        {
+            "m_Id": "36300baec0c94eb4ae2d2b29e273c8df"
         }
     ]
 }
@@ -2074,7 +2103,7 @@
         "a": 0.0
     },
     "isMainColor": false,
-    "m_ColorMode": 0
+    "m_ColorMode": 1
 }
 
 {

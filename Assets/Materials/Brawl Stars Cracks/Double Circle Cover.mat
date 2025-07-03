@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Cracks Grey Disappear
-  m_Shader: {fileID: -6465566751694194690, guid: ba860628439e1c641b45a68bc4389db3, type: 3}
+  m_Name: Double Circle Cover
+  m_Shader: {fileID: -6465566751694194690, guid: fff297c5083030148aac256c25a8ba67, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
@@ -30,7 +30,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2999
+  m_CustomRenderQueue: -1
   stringTagMap:
     RenderType: Transparent
   disabledShaderPasses:
@@ -41,7 +41,15 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Alpha_Erosion_Mask:
-        m_Texture: {fileID: 2800000, guid: 66aa6f54f348c334d82adbf2b82638db, type: 3}
+        m_Texture: {fileID: 2800000, guid: f51b76da8b37d724e96b9f66b12361be, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Alpha_Erosion_Mask_Appear:
+        m_Texture: {fileID: 2800000, guid: 7dbb4574c765fb147ac83b353dc9066d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Alpha_Erosion_Mask_Disappear:
+        m_Texture: {fileID: 2800000, guid: f51b76da8b37d724e96b9f66b12361be, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -53,7 +61,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Cracks_Texture:
-        m_Texture: {fileID: 2800000, guid: 72bb2694ba959314d8c2bacc0c76efcf, type: 3}
+        m_Texture: {fileID: 2800000, guid: b038e4618f2e40445b01c56809a91ea8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -109,6 +117,7 @@ Material:
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
+    - _Appear_Erosion_Level: 1
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
@@ -117,12 +126,14 @@ Material:
     - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.5
+    - _Debug: 0
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
+    - _Disappear_Erosion_Level: 1
     - _DstBlend: 10
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
-    - _Erosion_Level: 0.965
+    - _Erosion_Level: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -130,7 +141,7 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
-    - _QueueOffset: -1
+    - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
@@ -147,6 +158,6 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _Team_Color: {r: 0.051374998, g: 0.051374998, b: 0.051374998, a: 1}
+    - _Team_Color: {r: 1, g: 0.113000035, b: 0.113000035, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
