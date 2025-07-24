@@ -16,7 +16,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children:
   - {fileID: 8926484042661614542}
-  m_UIPosition: {x: 1621, y: -2075}
+  m_UIPosition: {x: 1621, y: -2258}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -87,9 +87,9 @@ MonoBehaviour:
     position:
       serializedVersion: 2
       x: 1596
-      y: -2134
+      y: -2317
       width: 474
-      height: 992
+      height: 1175
     contents:
     - model: {fileID: 114023846229194376}
       id: 0
@@ -120,10 +120,10 @@ MonoBehaviour:
   - title: Tori Gate
     position:
       serializedVersion: 2
-      x: -5639
-      y: -2432
-      width: 474
-      height: 1101
+      x: -5652
+      y: -2530
+      width: 487
+      height: 1199
     contents:
     - model: {fileID: 8926484042661614775}
       id: 0
@@ -379,9 +379,9 @@ MonoBehaviour:
   uiBounds:
     serializedVersion: 2
     x: -8234
-    y: -2432
+    y: -2530
     width: 15618
-    height: 8954
+    height: 9052
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -620,7 +620,7 @@ MonoBehaviour:
   m_UIPosition: {x: 0, y: 0}
   m_UICollapsed: 1
   m_UISuperCollapsed: 0
-  title: Minimal
+  title: Area Circle
   m_Owners:
   - {fileID: 114946465509916290}
   - {fileID: 114780028408030698}
@@ -1163,7 +1163,7 @@ MonoBehaviour:
   flipbookBlendFrames: 0
   flipbookMotionVectors: 0
   useSoftParticle: 0
-  vfxSystemSortPriority: 0
+  vfxSystemSortPriority: 1
   sort: 0
   sortMode: 0
   revertSorting: 0
@@ -3218,7 +3218,7 @@ MonoBehaviour:
   flipbookBlendFrames: 0
   flipbookMotionVectors: 0
   useSoftParticle: 0
-  vfxSystemSortPriority: 0
+  vfxSystemSortPriority: 2
   sort: 0
   sortMode: 0
   revertSorting: 0
@@ -3361,7 +3361,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.49
+      m_SerializableObject: 0.505
     m_Space: -1
   m_Property:
     name: b
@@ -5964,7 +5964,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children:
   - {fileID: 8926484042661614777}
-  m_UIPosition: {x: -5614, y: -2373}
+  m_UIPosition: {x: -5627, y: -2471}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -6626,7 +6626,7 @@ MonoBehaviour:
   m_UIPosition: {x: 0, y: 0}
   m_UICollapsed: 1
   m_UISuperCollapsed: 0
-  title: Minimal
+  title: Tori Gate
   m_Owners:
   - {fileID: 8926484042661614781}
   - {fileID: 8926484042661614805}
@@ -8550,7 +8550,7 @@ MonoBehaviour:
   flipbookBlendFrames: 0
   flipbookMotionVectors: 0
   useSoftParticle: 0
-  vfxSystemSortPriority: 0
+  vfxSystemSortPriority: 3
   sort: 0
   sortMode: 0
   revertSorting: 0
@@ -12335,7 +12335,7 @@ MonoBehaviour:
   flipbookBlendFrames: 0
   flipbookMotionVectors: 0
   useSoftParticle: 0
-  vfxSystemSortPriority: 0
+  vfxSystemSortPriority: 4
   sort: 0
   sortMode: 0
   revertSorting: 0
@@ -15837,7 +15837,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.1
+      m_SerializableObject: 0.12
     m_Space: -1
   m_Property:
     name: b
@@ -16367,6 +16367,7 @@ MonoBehaviour:
   m_UISuperCollapsed: 0
   m_InputSlots:
   - {fileID: 8926484042661616270}
+  - {fileID: 8926484042661616899}
   m_OutputSlots: []
   m_Label: 
   m_Data: {fileID: 8926484042661615238}
@@ -16392,7 +16393,7 @@ MonoBehaviour:
   flipbookBlendFrames: 0
   flipbookMotionVectors: 0
   useSoftParticle: 0
-  vfxSystemSortPriority: 0
+  vfxSystemSortPriority: 5
   sort: 0
   sortMode: 0
   revertSorting: 0
@@ -18942,7 +18943,7 @@ MonoBehaviour:
   flipbookBlendFrames: 0
   flipbookMotionVectors: 0
   useSoftParticle: 0
-  vfxSystemSortPriority: 0
+  vfxSystemSortPriority: 6
   sort: 0
   sortMode: 0
   revertSorting: 0
@@ -24821,7 +24822,7 @@ MonoBehaviour:
   flipbookBlendFrames: 0
   flipbookMotionVectors: 0
   useSoftParticle: 0
-  vfxSystemSortPriority: 0
+  vfxSystemSortPriority: 7
   sort: 0
   sortMode: 0
   revertSorting: 0
@@ -26536,7 +26537,7 @@ MonoBehaviour:
   flipbookBlendFrames: 0
   flipbookMotionVectors: 0
   useSoftParticle: 0
-  vfxSystemSortPriority: 0
+  vfxSystemSortPriority: 8
   sort: 2
   sortMode: 0
   revertSorting: 0
@@ -28845,7 +28846,7 @@ MonoBehaviour:
   flipbookBlendFrames: 0
   flipbookMotionVectors: 0
   useSoftParticle: 0
-  vfxSystemSortPriority: 0
+  vfxSystemSortPriority: 9
   sort: 0
   sortMode: 0
   revertSorting: 0
@@ -31950,7 +31951,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: -1932, y: 238}
+  m_UIPosition: {x: -1953, y: 331}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -32077,7 +32078,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: -2130, y: 114}
+  m_UIPosition: {x: -2202, y: 353}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -32133,7 +32134,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: -1717, y: 238}
+  m_UIPosition: {x: -1738, y: 331}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -33597,7 +33598,7 @@ MonoBehaviour:
   flipbookBlendFrames: 0
   flipbookMotionVectors: 0
   useSoftParticle: 0
-  vfxSystemSortPriority: 0
+  vfxSystemSortPriority: 10
   sort: 0
   sortMode: 0
   revertSorting: 0
@@ -36013,7 +36014,7 @@ MonoBehaviour:
   flipbookBlendFrames: 0
   flipbookMotionVectors: 0
   useSoftParticle: 0
-  vfxSystemSortPriority: 0
+  vfxSystemSortPriority: 11
   sort: 0
   sortMode: 0
   revertSorting: 0
@@ -40810,7 +40811,7 @@ MonoBehaviour:
   flipbookBlendFrames: 0
   flipbookMotionVectors: 0
   useSoftParticle: 0
-  vfxSystemSortPriority: 0
+  vfxSystemSortPriority: 12
   sort: 0
   sortMode: 0
   revertSorting: 0
@@ -41853,7 +41854,7 @@ MonoBehaviour:
   flipbookBlendFrames: 0
   flipbookMotionVectors: 0
   useSoftParticle: 0
-  vfxSystemSortPriority: 0
+  vfxSystemSortPriority: 13
   sort: 0
   sortMode: 0
   revertSorting: 0
@@ -48092,4 +48093,38 @@ MonoBehaviour:
       m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
   m_Direction: 1
+  m_LinkedSlots: []
+--- !u!114 &8926484042661616899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f780aa281814f9842a7c076d436932e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UIIgnoredErrors: []
+  m_Parent: {fileID: 0}
+  m_Children: []
+  m_UIPosition: {x: 0, y: 0}
+  m_UICollapsed: 1
+  m_UISuperCollapsed: 0
+  m_MasterSlot: {fileID: 8926484042661616899}
+  m_MasterData:
+    m_Owner: {fileID: 8926484042661615289}
+    m_Value:
+      m_Type:
+        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: 3
+    m_Space: -1
+  m_Property:
+    name: _Emission
+    m_serializedType:
+      m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+  m_Direction: 0
   m_LinkedSlots: []
