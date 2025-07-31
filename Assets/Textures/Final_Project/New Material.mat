@@ -7,17 +7,19 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: base
-  m_Shader: {fileID: -6465566751694194690, guid: 6c16053c713c07242a8010e71f95e92b, type: 3}
+  m_Name: New Material
+  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _EMISSION
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 1974
+  stringTagMap:
+    RenderType: Opaque
   disabledShaderPasses:
   - MOTIONVECTORS
   m_LockedProperties: 
@@ -25,7 +27,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 0ac1b446036f22f45aab40ed489e7bf4, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -62,26 +64,6 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_76bc9b814cdd484cb678a4b59d133cf8_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 650cd28061d24994db99e371397ee56d, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_7b92e25be1d54cb3b049f6b49363baf2_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: bacd3991f2bc8af419aaedbef887827b, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_7de6a8dbbcd74cd89c6575838c45d685_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: c9148f2bb8af55d4b897d7d012c07866, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_99b9fb41b28948368d9e52b8fe9352fe_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: c3e7af48e5c86eb4684e53b9597c85e8, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_cec6987a10b8480f9eb606c6045dec2a_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 0ac1b446036f22f45aab40ed489e7bf4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -122,45 +104,45 @@ Material:
     - _DistortionBlend: 0.5
     - _DistortionEnabled: 0
     - _DistortionStrength: 1
-    - _DistortionStrengthScaled: 0.1
-    - _DstBlend: 10
-    - _DstBlendAlpha: 10
+    - _DistortionStrengthScaled: 0
+    - _DstBlend: 0
+    - _DstBlendAlpha: 0
+    - _EmissionEnabled: 0
     - _EnvironmentReflections: 1
-    - _FlipbookBlending: 0
     - _FlipbookMode: 0
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _LightingEnabled: 0
     - _Metallic: 0
-    - _Mode: 0
+    - _Mode: 3
     - _OcclusionStrength: 1
     - _Parallax: 0.005
-    - _QueueControl: 0
-    - _QueueOffset: 0
+    - _QueueOffset: -26
     - _ReceiveShadows: 1
+    - _SampleGI: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SoftParticlesEnabled: 0
     - _SoftParticlesFarFadeDistance: 1
     - _SoftParticlesNearFadeDistance: 0
     - _SpecularHighlights: 1
-    - _Speed: 0.1
-    - _SrcBlend: 5
+    - _SrcBlend: 1
     - _SrcBlendAlpha: 1
-    - _Surface: 1
+    - _Surface: 0
     - _WorkflowMode: 1
-    - _ZWrite: 0
+    - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _BaseColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
+    - _BaseColor: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 1}
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.42452827, g: 0.42452827, b: 0.42452827, a: 1}
+    - _ColorAddSubDiff: {r: 1, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &4971740868053887892
+--- !u!114 &2788357429855748040
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

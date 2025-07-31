@@ -7,25 +7,29 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: base
-  m_Shader: {fileID: -6465566751694194690, guid: 6c16053c713c07242a8010e71f95e92b, type: 3}
+  m_Name: Showtime 1
+  m_Shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
+  m_ValidKeywords:
+  - _SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords:
+  - _FLIPBOOKBLENDING_OFF
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
   disabledShaderPasses:
-  - MOTIONVECTORS
+  - DepthOnly
+  - SHADOWCASTER
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 0ac1b446036f22f45aab40ed489e7bf4, type: 3}
+        m_Texture: {fileID: 2800000, guid: f01b7a353a10d1a4ba6a83f6d5c87db0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -62,26 +66,6 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_76bc9b814cdd484cb678a4b59d133cf8_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 650cd28061d24994db99e371397ee56d, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_7b92e25be1d54cb3b049f6b49363baf2_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: bacd3991f2bc8af419aaedbef887827b, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_7de6a8dbbcd74cd89c6575838c45d685_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: c9148f2bb8af55d4b897d7d012c07866, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_99b9fb41b28948368d9e52b8fe9352fe_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: c3e7af48e5c86eb4684e53b9597c85e8, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_cec6987a10b8480f9eb606c6045dec2a_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 0ac1b446036f22f45aab40ed489e7bf4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -135,7 +119,6 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
-    - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _Smoothness: 0.5
@@ -144,7 +127,6 @@ Material:
     - _SoftParticlesFarFadeDistance: 1
     - _SoftParticlesNearFadeDistance: 0
     - _SpecularHighlights: 1
-    - _Speed: 0.1
     - _SrcBlend: 5
     - _SrcBlendAlpha: 1
     - _Surface: 1
