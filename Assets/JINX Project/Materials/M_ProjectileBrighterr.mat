@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_ProjectileBright
+  m_Name: M_ProjectileBrighterr
   m_Shader: {fileID: -6465566751694194690, guid: 9c4dcdf1f16354046bc382270c4438d7, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -29,7 +29,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3002
   stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
@@ -64,10 +64,10 @@ Material:
     - _Final_Emissive_Brightness: 2
     - _Global_Brightness: 0.09
     - _Initial_Alpha_Brightness: 1
-    - _Initial_Emissive_Brightness: -0.26
+    - _Initial_Emissive_Brightness: 74.98
     - _Noise_Contrast: 0
     - _QueueControl: 0
-    - _QueueOffset: 0
+    - _QueueOffset: 2
     - _Use_Alpha_Depth_Fade: 1
     - _Use_Alpha_Noise: 0
     - _Use_Emissive_Depth_Fade: 1
