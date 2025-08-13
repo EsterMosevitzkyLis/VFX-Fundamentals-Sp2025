@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: fadeout trail
-  m_Shader: {fileID: -6465566751694194690, guid: d94be856d22f649458c205551ba4fa36, type: 3}
+  m_Name: finals galaxy BG
+  m_Shader: {fileID: -6465566751694194690, guid: b7aa4ad0cf0e1034ab6e581a4b6feef1, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -68,12 +68,12 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Texture2DAsset_c61f26b464d140f2a5940fa8ee9834b7_Out_0_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 589aca726774bca4c8cd45af9022d38d, type: 3}
+    - _galaxy_cloud_texture:
+        m_Texture: {fileID: 2800000, guid: d0fb010673de6c844824e7112c5689d0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _trail_texture:
-        m_Texture: {fileID: 2800000, guid: 79bf1f8070238dd43b9fd160e049b7ae, type: 3}
+    - _stars_texture:
+        m_Texture: {fileID: 2800000, guid: 760e229ee1c8350438f57b09361d5595, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -122,19 +122,19 @@ Material:
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
-    - _opacity: 0.326
+    - _emission: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _Vector2: {r: 0, g: 0, b: 0, a: 0}
-    - _scolling_speed: {r: 0.5, g: 0, b: 0, a: 0}
-    - _tiling: {r: 0.41, g: 1, b: 0, a: 0}
-    - _trail_color: {r: 0, g: 0.37254903, b: 0.6745098, a: 1}
+    - _galaxy_cloud_color: {r: 0, g: 0.37254897, b: 0.6745098, a: 1}
+    - _scrolling_speed: {r: 0, g: -0.2, b: 0, a: 0}
+    - _stars_color: {r: 0.97647053, g: 0.8980393, b: 0.6941177, a: 1}
+    - _stars_tiling: {r: 0.4, g: 0.4, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &6911182978606044980
+--- !u!114 &7652732572539627794
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
