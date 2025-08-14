@@ -65,7 +65,7 @@ Material:
     - _Global_Brightness: 1
     - _Initial_Alpha_Brightness: 1
     - _Initial_Emissive_Brightness: 2
-    - _Noise_Contrast: 2
+    - _Noise_Contrast: 1.96
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Use_Alpha_Depth_Fade: 1
@@ -73,7 +73,9 @@ Material:
     - _Use_Emissive_Depth_Fade: 0
     - _Use_Emissive_Noise: 1
     m_Colors:
-    - _Noise_Speed: {r: 1, g: 3, b: 0, a: 0}
+    - _Color_1: {r: 0.3058824, g: 0.1803922, b: 0.5568628, a: 1}
+    - _Color_2: {r: 0.09937108, g: 0, b: 0.2981131, a: 1}
+    - _Noise_Speed: {r: -1, g: -3, b: 0, a: 0}
     - _Tint: {r: 0.2745264, g: 0.13349947, b: 0.3773585, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
