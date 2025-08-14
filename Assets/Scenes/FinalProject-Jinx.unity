@@ -2518,7 +2518,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a6ccac09b1fb6ac409af554d2432cf56, type: 2}
+  - {fileID: 2100000, guid: a11c4047afae2ad43a8414f935a31d86, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12136,6 +12136,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3484344672659042582}
     m_Modifications:
+    - target: {fileID: 182579921711737901, guid: 10f1a15ea16d4d748b3943c5386131ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 182579921711737901, guid: 10f1a15ea16d4d748b3943c5386131ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2231581201754912245, guid: 10f1a15ea16d4d748b3943c5386131ac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5670669768947005476, guid: 10f1a15ea16d4d748b3943c5386131ac, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.535102
@@ -12176,10 +12188,46 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5695757709267796333, guid: 10f1a15ea16d4d748b3943c5386131ac, type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5695757709267796333, guid: 10f1a15ea16d4d748b3943c5386131ac, type: 3}
+      propertyPath: lengthInSec
+      value: 1.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 5695757709267796333, guid: 10f1a15ea16d4d748b3943c5386131ac, type: 3}
+      propertyPath: UVModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5695757709267796333, guid: 10f1a15ea16d4d748b3943c5386131ac, type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 1.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 5695757709267796333, guid: 10f1a15ea16d4d748b3943c5386131ac, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.a
+      value: 0.22745098
+      objectReference: {fileID: 0}
+    - target: {fileID: 8612405259208076986, guid: 10f1a15ea16d4d748b3943c5386131ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 8612405259208076986, guid: 10f1a15ea16d4d748b3943c5386131ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8612405259208076986, guid: 10f1a15ea16d4d748b3943c5386131ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
     - target: {fileID: 8939566676093476266, guid: 10f1a15ea16d4d748b3943c5386131ac, type: 3}
       propertyPath: m_Name
       value: PS_Impact 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8998123079309273589, guid: 10f1a15ea16d4d748b3943c5386131ac, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: bab015c4818681b4aa35e0bff0202703, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17231,9 +17279,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF_Jinx_Arcanist_R_Cast
       objectReference: {fileID: 0}
+    - target: {fileID: 2924255116780076432, guid: d768b35627989a54aaf08f52b70da416, type: 3}
+      propertyPath: lengthInSec
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3199462743601983384, guid: d768b35627989a54aaf08f52b70da416, type: 3}
+      propertyPath: lengthInSec
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3408149631195504178, guid: d768b35627989a54aaf08f52b70da416, type: 3}
+      propertyPath: lengthInSec
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4258929159593996564, guid: d768b35627989a54aaf08f52b70da416, type: 3}
+      propertyPath: lengthInSec
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7767873753342209179, guid: d768b35627989a54aaf08f52b70da416, type: 3}
+      propertyPath: lengthInSec
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8182478084750146738, guid: d768b35627989a54aaf08f52b70da416, type: 3}
       propertyPath: randomSeed
       value: 7501
+      objectReference: {fileID: 0}
+    - target: {fileID: 8182478084750146738, guid: d768b35627989a54aaf08f52b70da416, type: 3}
+      propertyPath: lengthInSec
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8182478084750146738, guid: d768b35627989a54aaf08f52b70da416, type: 3}
       propertyPath: autoRandomSeed
@@ -17922,6 +17994,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8647359661033970793, guid: 60483a7b5c0ae3645b92acb9c4c9cb18, type: 2}
     - target: {fileID: 673603913317626160, guid: 453faef1996ece749a93bef6a054e767, type: 3}
+      propertyPath: m_SceneBindings.Array.data[4].key
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 673603913317626160, guid: 453faef1996ece749a93bef6a054e767, type: 3}
       propertyPath: m_SceneBindings.Array.data[1].value
       value: 
       objectReference: {fileID: 5598443297379849158}
@@ -17933,6 +18009,10 @@ PrefabInstance:
       propertyPath: m_SceneBindings.Array.data[3].value
       value: 
       objectReference: {fileID: 5598443297379849158}
+    - target: {fileID: 673603913317626160, guid: 453faef1996ece749a93bef6a054e767, type: 3}
+      propertyPath: m_SceneBindings.Array.data[4].value
+      value: 
+      objectReference: {fileID: 3692128872022565161}
     - target: {fileID: 673603913317626160, guid: 453faef1996ece749a93bef6a054e767, type: 3}
       propertyPath: m_ExposedReferences.m_References.Array.size
       value: 5
