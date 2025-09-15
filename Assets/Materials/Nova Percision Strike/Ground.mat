@@ -41,7 +41,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Alpha_Erosion_Mask:
-        m_Texture: {fileID: 2800000, guid: ec8d60aeea3a3ef40b96ceda947320cd, type: 3}
+        m_Texture: {fileID: 2800000, guid: d4f25f34bb9ff0b4aabe927c208e96f3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -53,7 +53,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Cracks_Texture:
-        m_Texture: {fileID: 2800000, guid: 2cecc3b117762204ba5b21e39128f82b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8e655834be8dc2d48aa4657229b861fa, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -73,7 +73,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Emission_Erosion:
-        m_Texture: {fileID: 2800000, guid: ec8d60aeea3a3ef40b96ceda947320cd, type: 3}
+        m_Texture: {fileID: 2800000, guid: d4f25f34bb9ff0b4aabe927c208e96f3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -138,6 +138,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: -50
     - _ReceiveShadows: 1
+    - _Shockwave_Frequency: 2
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _Softness: 0.786
